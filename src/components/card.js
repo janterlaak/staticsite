@@ -27,11 +27,11 @@ class Card extends Component {
 
                 marginLeft: "auto",
                 marginRight: "auto",
-
+                color: 'red',
                 border: '1px solid #eeeeee',
                 borderRadius: '3px',
                 padding: '15px',
-                width: '400px',
+                width: '500px',
 
             },
             image: {

@@ -14,14 +14,19 @@
     "@material-ui/icons": "^3.0.2",
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
+    "d3-ease": "^1.0.5",
+    "flubber": "^0.4.2",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
-    "react-anime": "^2.2.0",
     "react-card-flip": "^0.4.0",
     "react-dom": "^16.7.0",
     "react-hot-loader": "^4.6.5",
+    "react-move": "^5.1.0",
     "react-social-icons": "^4.1.0",
-    "react-static": "^6.3.4"
+    "react-static": "^6.3.4",
+    "topojson": "^3.0.2"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
