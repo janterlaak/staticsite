@@ -44,7 +44,7 @@ export default withSiteData(() => (
     </Typography>
     <PaperSheet/>
     <Typography variant="h5" gutterBottom align="center">
-      Guessing Game: Witch State are you looking at?
+      Guessing Game: Whitch State are you looking at?
     </Typography>
     <States />
   </MuiThemeProvider>
