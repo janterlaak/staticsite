@@ -1,4 +1,0 @@
-[build]
-base = "teststatic/"
-publish = "teststatic/build/"
-command = "yarn build"
