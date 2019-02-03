@@ -1,0 +1,30 @@
+{
+  "name": "react-static-example-basic",
+  "private": true,
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "bundle": "react-static bundle",
+    "export": "react-static export",
+    "serve": "serve dist -p 3000 -s"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "@reach/router": "^1.2.1",
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-anime": "^2.2.0",
+    "react-card-flip": "^0.4.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.5",
+    "react-social-icons": "^4.1.0",
+    "react-static": "^6.3.4"
+  },
+  "devDependencies": {
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "10.1.1"
+  }
+}
