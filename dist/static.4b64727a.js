@@ -381,13 +381,13 @@ exports.onLoading = onLoading;
 /* 7 */
 /***/ (function(module, exports) {
 
-module.exports = require("@reach/router");
+module.exports = require("@material-ui/core/Typography");
 
 /***/ }),
 /* 8 */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Typography");
+module.exports = require("@reach/router");
 
 /***/ }),
 /* 9 */
@@ -3435,7 +3435,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_static__WEBPACK_IMPORTED_MODULE_1__["withRouteData"])(function(_ref){var posts=_ref.posts;return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div",null,react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"It's blog time."),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"All Posts:",react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul",null,posts.map(function(post){return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li",{key:post.id},react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_2__["Link"],{to:"/blog/post/".concat(post.id,"/")},post.title));})));}));
 
@@ -3449,7 +3449,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_static__WEBPACK_IMPORTED_MODULE_1__["withRouteData"])(function(_ref){var post=_ref.post;return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div",null,react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_2__["Link"],{to:"/blog/"},'<'," Back"),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,post.title),react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,post.body));}));
 
@@ -3481,7 +3481,7 @@ var styles_ = __webpack_require__(13);
 var blue_ = __webpack_require__(59);
 
 // EXTERNAL MODULE: external "@material-ui/core/Typography"
-var Typography_ = __webpack_require__(8);
+var Typography_ = __webpack_require__(7);
 var Typography_default = /*#__PURE__*/__webpack_require__.n(Typography_);
 
 // EXTERNAL MODULE: external "prop-types"
@@ -5183,7 +5183,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _router = __webpack_require__(7);
+var _router = __webpack_require__(8);
 
 var _ = __webpack_require__(9);
 
@@ -6148,13 +6148,13 @@ var external_react_dom_default = /*#__PURE__*/__webpack_require__.n(external_rea
 var lib = __webpack_require__(6);
 
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(7);
+var router_ = __webpack_require__(8);
 
 // EXTERNAL MODULE: /Users/janterlaak/teststatic/src/app.css
 var app = __webpack_require__(56);
 
 // CONCATENATED MODULE: /Users/janterlaak/teststatic/src/App.js
-function App(){return external_react_default.a.createElement(lib["Root"],null,external_react_default.a.createElement("nav",null,external_react_default.a.createElement(router_["Link"],{to:"/"},"Home"),external_react_default.a.createElement(router_["Link"],{to:"/about"},"About"),external_react_default.a.createElement(router_["Link"],{to:"/blog"},"Blog")),external_react_default.a.createElement("div",{className:"content"},external_react_default.a.createElement(lib["Routes"],null)));}/* harmony default export */ var src_App = (App);
+function App(){return external_react_default.a.createElement(lib["Root"],null,external_react_default.a.createElement("nav",null,external_react_default.a.createElement(router_["Link"],{to:"/"},"Home"),external_react_default.a.createElement(router_["Link"],{to:"/about"},"About")),external_react_default.a.createElement("div",{className:"content"},external_react_default.a.createElement(lib["Routes"],null)));}/* harmony default export */ var src_App = (App);
 // CONCATENATED MODULE: /Users/janterlaak/teststatic/src/index.js
 // Your top level component
 // Export your top level component as JSX (for static rendering)
@@ -6166,4 +6166,4 @@ if(false){}}
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.bc7a2ea6.js.map
+//# sourceMappingURL=static.4b64727a.js.map
