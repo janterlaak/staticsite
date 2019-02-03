@@ -8,8 +8,8 @@ export const T1 = () => (`
 export const T2 = () => (`
     Building Apps with the blockchain in mind. This group is building Apps for the social and commercial domains.
      We are a team of solution designers building on javascript and Smart Contracts dedicated to Ethereum and Parity chains. This can be private or public just
-    what you needs are.
-     Thank you! ❤️`
+    what you needs are. We have build an industrial weight scale prototype with a connenction to Ethereum blockchain for Smart contract processing. All weight related value can be processed by smart contracts. Import Export applications are great for it! 
+     please contact me. Thank you! ❤️`
 )
 
 export const T3 = () => (`
