@@ -28,6 +28,7 @@ export default withSiteData(() => (
   <MuiThemeProvider theme={ theme }>
     <CssBaseline />
     <SocialIcon url="https://twitter.com/DesignDapp/" />
+    <SocialIcon url="https://github.com/janterlaak" />
     <Typography variant="h3" gutterBottom align="center">
       <Card />
     </Typography>
